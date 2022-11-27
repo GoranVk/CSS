@@ -8,35 +8,41 @@
   font-family: sans-serif;
   font-weight: bolder;
  
+ 
 
 }
 .anima {
   width: 100vw;
   height: 100vh;
-  padding: 2em;
+  padding: 1em;
   background-image: url("https://v1.padlet.pics/1/image.webp?t=c_limit%2Cdpr_2%2Ch_556%2Cw_988&url=https%3A%2F%2Fpadlet-uploads.storage.googleapis.com%2F891001168%2Fe79960e75be653e107a57de088ea3859%2Fblur_clean.jpg");
   background-size: cover;
   display: $flex-box;
   gap: 5vw;
   justify-content: space-around;
   align-items: center;
+flex-direction: column;
+overflow: hidden;
+
   
 }
 .box {
 
-  width: 25%;
-  height: 25vw;
+  width: 15vw;
+  height: 25vh;
   display: $flex-box;
   justify-content: center;
   align-items: center;
-  color: #fff;
+  color: rgba(215, 215, 215, 0.2);
   position: relative;
-  top: -80vh;
+  right: -85vw;
   animation-name: animation-1;
   animation-duration: 2s;
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
-  font-size: 15vw;
+ 
+
+  font-size: 8vw;
   border-radius: 15%;
   border: 3px solid white;
   box-shadow: 3px 2px 1px #faf2f2,
@@ -56,7 +62,7 @@
 
 
 
-  text-shadow: 3px 2px 1px #faf2f2,
+  text-shadow: 3px 2px 1px #ffffff,
         1px 2px 1px #615050,
         1px 3px 1px #525151,
         1px 4px 1px #787575,
@@ -66,10 +72,10 @@
         1px 8px 1px #8b8989,
         1px 9px 1px #816c6c,
         1px 10px 1px #040404,
-    1px 18px 6px rgba(9, 9, 9, 0.4),
-    1px 22px 10px rgba(10, 10, 10, 0.2),
+    1px 18px 6px rgba(0, 0, 0, 0.5), 
+    1px 22px 10px rgba(8, 8, 8, 0.4),
     1px 25px 35px rgba(16,16,16,0.2),
-    1px 30px 60px rgba(16,16,16,0.4);
+    1px 30px 60px rgba(16,16,16,0.2);
 
 }
 .box1 {
@@ -87,7 +93,7 @@
  
 
 .box:hover, .box:focus {
-  color: #313133;
+  color: rgba(8, 9, 8, 0.7);
   transform: translateY(-6px);
 }
 
