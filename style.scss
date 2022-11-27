@@ -28,8 +28,7 @@ overflow: hidden;
 }
 .box {
 
-  width: 15vw;
-  height: 25vh;
+  width: 17%;
   display: $flex-box;
   justify-content: center;
   align-items: center;
@@ -37,7 +36,7 @@ overflow: hidden;
   position: relative;
   right: -85vw;
   animation-name: animation-1;
-  animation-duration: 2s;
+  animation-duration: 2s; 
   animation-fill-mode: forwards;
   animation-timing-function: ease-in-out;
  

@@ -29,8 +29,7 @@
 }
 
 .box {
-  width: 15vw;
-  height: 25vh;
+  width: 17%;
   display: flex;
   justify-content: center;
   align-items: center;
