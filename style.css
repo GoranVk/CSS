@@ -71,4 +71,12 @@
   opacity: 1;
 }
 
+@media only screen and (max-width: 600px) {
+  .box {
+    width: 50%;
+    height: 20%;
+    font-size: 18vw;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
